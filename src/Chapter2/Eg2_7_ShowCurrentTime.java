@@ -15,7 +15,7 @@ public class Eg2_7_ShowCurrentTime {
         long currentMinutes = totalMinutes % 60;
 
         long totalHours = totalMinutes / 60;
-        long currentHours = (totalHours % 60) -5;
+        long currentHours = totalHours % 24;
 
         System.out.println("Current time in Jakarta is " + currentHours + ":" + currentMinutes + ":" + currentSeconds + " GMT");
     }
