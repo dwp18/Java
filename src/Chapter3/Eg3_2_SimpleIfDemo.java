@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Wahyu on 4/17/2017.
  */
-public class SimpleIfDemo {
+public class Eg3_2_SimpleIfDemo {
     public static void  main (String[] args){
         Scanner input = new Scanner (System.in);
 

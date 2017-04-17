@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Wahyu on 4/17/2017.
  */
-public class SubstractionQuiz {
+public class Eg3_3_SubstractionQuiz {
     public static void main (String[] args){
         Scanner input = new Scanner (System.in);
 
