@@ -10,10 +10,32 @@ public class Ex3_8_SortThreeIntegers {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter 3 number: ");
-        int a = input.nextInt();
-        int b = input.nextInt();
-        int c = input.nextInt();
+        int first = input.nextInt();
+        int second = input.nextInt();
+        int third = input.nextInt();
+        int temp = 0;
 
+        if (second < first){
+            temp = first;
+            first = second;
+            second = temp;
+        }
+
+        if (third < first){
+            temp = first;
+            first = third;
+            third = temp;
+        }
+
+        if (third < second){
+            temp = second;
+            second = third;
+            third = temp;
+        }
+
+        System.out.print(first + " " + second + " " + third);
+
+        /*
         if (a < b && a < c) {
             System.out.print(a + " ");
             if (b < c) {
@@ -35,6 +57,6 @@ public class Ex3_8_SortThreeIntegers {
             } else {
                 System.out.print(b + " " + a);
             }
-        }
+        }*/
     }
 }
