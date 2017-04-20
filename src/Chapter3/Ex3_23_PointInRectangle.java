@@ -13,8 +13,8 @@ public class Ex3_23_PointInRectangle {
         double x2 = input.nextDouble();
         double y2 = input.nextDouble();
 
-        boolean hDistance = x2 <= (10.0 / 2);
-        boolean vDistance = y2 <= (5.0 / 2);
+        boolean hDistance = x2 <= (10.0 / 2) && x2 >= (-10.0 / 2);
+        boolean vDistance = y2 <= (5.0 / 2) && y2 >= (-5.0 / 2);
 
         if(hDistance && vDistance){
             System.out.print("Point (" + x2 + ", " + y2 + ") is in the rectangle");
